@@ -1,0 +1,5 @@
+{
+  "http_port": 8000,
+  "openai_key": "sk-xxx",
+  "base_url": "http://49.235.138.227:8080/v1"
+}
