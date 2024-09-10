@@ -1,6 +1,6 @@
 # chatgpt-server-go
 ## 介绍
-使用 [Gin](https://github.com/gin-gonic/gin) and [Go OpenAI](https://github.com/sashabaranov/go-openai) 实现的 chatgpt server，支持流式调用和非流式调用，兼容openai接口
+使用 [Gin](https://github.com/gin-gonic/gin) and [Go OpenAI](https://github.com/sashabaranov/go-openai) 实现的 chatgpt server，支持流式调用和非流式调用，兼容openai接口。流式调用支持context cancel。
 
 项目采用 [golang 标准目录布局](https://github.com/golang-standards/project-layout)
 
