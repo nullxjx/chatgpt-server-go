@@ -47,6 +47,7 @@ func StreamChat(ctx context.Context, dep Dependency, req *openai.ChatCompletionR
 				byteChan <- []byte(fmt.Sprintf("error: %v", err))
 				return
 			}
+
 			responseBytes, err := json.Marshal(response)
 			if err != nil {
 				log.Errorf("JSON marshal error: %v", err)
